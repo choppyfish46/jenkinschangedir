@@ -1,7 +1,8 @@
 node {
-    dir('service')
+    dir('service'){
     stage("Change directory to service"){
         echo "changed directory"
 
     }
+}
 }
